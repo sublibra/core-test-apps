@@ -1,0 +1,26 @@
+[
+    {
+        "qInfo": {
+            "qId": "avgSize",
+            "qType": "measure"
+        },
+        "qMeasure": {
+            "qDef": "=avg(size)"
+        },
+        "qMetaDef": {
+            "title": "Average size"
+        }
+    },
+    {
+        "qInfo": {
+            "qId": "entries",
+            "qType": "measure"
+        },
+        "qMeasure": {
+            "qDef": "=count(time)"
+        },
+        "qMetaDef": {
+            "title": "Number of entries"
+        }
+    }
+]

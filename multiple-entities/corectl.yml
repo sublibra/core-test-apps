@@ -1,0 +1,4 @@
+app: multiple-entities
+script: loadscript.qvs
+measures: ./measures.json
+engine: localhost:39076

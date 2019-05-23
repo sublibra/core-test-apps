@@ -2,18 +2,13 @@ version: "3.3"
 
 services:
   qix-engine:
-    image: qlikcore/engine:12.321.0
+    image: qlikcore/engine:12.387.0
     restart: always
     command: |
       -S AcceptEULA=${ACCEPT_EULA}
       -S StandardReload=0
       -S DocumentDirectory=/data
     ports:
-      - 9076:9076
+      - 39076:9076
     volumes:
       - ./data:/data
-
-  chrome:
-    image: browserless/chrome:1.1-puppeteer-1.10.0
-    ports:
-      - 3000:3000

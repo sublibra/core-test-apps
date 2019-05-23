@@ -1,0 +1,7 @@
+Load * Inline [
+  time, size
+  1, 20
+  2, 30
+  3, 25
+  4, 30
+];

@@ -1,2 +1,3 @@
 app: selection-model
 script: selection-model.qvs
+engine: localhost:39076

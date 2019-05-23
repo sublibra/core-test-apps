@@ -1,6 +1,10 @@
+NumericTest:
 Load * Inline [
-  Value, Text
+  Value, Description
+  10.2 , Numeric
+  '10,2', NonNumeric
   0, Numeric
-  '0', NonNumeric
+  '0', Numeric
+  '0$', NonNumeric
 ];
   
