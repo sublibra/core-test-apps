@@ -1,0 +1,25 @@
+Food:
+Load * Inline [
+    Food, Category, Origin
+    apple, fruit, local
+    banana, fruit, non-eu
+    potato, vegetable, local
+    lard, friday-snack, eu
+];
+
+Categories:
+Load * Inline [
+    Category, Health
+    fruit, great
+    vegetable, great
+    friday-snack, awful
+];
+
+Logistics:
+Load * Inline [
+    Origin, TransportCost
+    local, 1
+    eu, 5
+    non-eu, 50
+];
+
