@@ -1,0 +1,6 @@
+Load * Inline [
+  Value, Text
+  0, Numeric
+  '0', NonNumeric
+];
+  
