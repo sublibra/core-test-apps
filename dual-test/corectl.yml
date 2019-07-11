@@ -1,0 +1,3 @@
+engine: localhost:39076
+app: dual-test
+script: script.qvs
